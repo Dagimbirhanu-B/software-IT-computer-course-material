@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://www.javatpoint.com/css-mcq -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>CSS MCQ (Multiple Choice Questions) - javatpoint</title><link rel="SHORTCUT ICON" href="https://static.javatpoint.com/images/favicon2.png">
+<link rel="stylesheet" type="text/css" href="./cssmcq_files/link.css" async=""><link rel="dns-prefetch" href="https://clients1.google.com/"><link rel="dns-prefetch" href="https://static.javatpoint.com/"><link rel="dns-prefetch" href="https://googleads.g.doubleclick.net/"><link rel="dns-prefetch" href="https://www.google.com/"><link rel="dns-prefetch" href="https://feedify.net/"><meta name="theme-color" content="#4CAF50"><meta property="og:title" content="CSS MCQ (Multiple Choice Questions) - javatpoint"><meta property="og:description" content="CSS MCQ (Multiple Choice Questions) with CSS Tutorial, example on inline, hover, selector, background, border, display, float, font, margin, opacity, overflow, padding, position etc.">
+<meta name="keywords" content="css, tutorial, beginners, professionals, introduction, example, inline, file, selector, background, border, display, float, font, margin, opacity, overflow, padding, position"><meta name="description" content="CSS MCQ (Multiple Choice Questions) with CSS Tutorial, example on inline, hover, selector, background, border, display, float, font, margin, opacity, overflow, padding, position etc."><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="https://www.javatpoint.com/css-mcq">
+<meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta name="twitter:title" property="og:title" content="CSS MCQ (Multiple Choice Questions) - javatpoint"><meta name="twitter:description" property="og:description" content="CSS MCQ (Multiple Choice Questions) with CSS Tutorial, example on inline, hover, selector, background, border, display, float, font, margin, opacity, overflow, padding, position etc."><meta property="og:url" content="https://www.javatpoint.com/css-mcq"><meta property="og:site_name" content="www.javatpoint.com"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@pagejavatpoint"><meta name="twitter:domain" content="www.javatpoint.com"><meta name="twitter:creator" content="@pagejavatpoint">
+ 
+<link href="https://www.javatpoint.com/manifest.json" rel="manifest">
+<script async="" src="./cssmcq_files/async-ads.js.download"></script><script async="" src="./cssmcq_files/async-ads.js.download"></script><script src="./cssmcq_files/osd.js.download"></script><script src="./cssmcq_files/f.txt"></script><script type="text/javascript" async="" src="./cssmcq_files/ga.js.download"></script><script src="./cssmcq_files/f(1).txt" id="google_shimpl"></script><script type="text/javascript" async="" src="./cssmcq_files/f(2).txt"></script><script type="text/javascript" async="" src="./cssmcq_files/f(2).txt"></script><script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script><script src="./cssmcq_files/adRecover.js.download" type="text/javascript" async=""></script>
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/37780/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script><script src="./cssmcq_files/adpushup.js.download" type="text/javascript" async=""></script>
+<meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="./cssmcq_files/jquery.min.js.download"></script><script type="text/javascript" async="" src="./cssmcq_files/pb.1615970786708.js.download"></script><script type="text/javascript">(function(w, d) {
+        var s = d.createElement('div');
+        s.style.display = "inline";
+        var i = d.createElement('img');
+        i.height = "1";
+        i.width = "1";
+        i.alt = "";
+        i.src = "https://10876.ep19.api.botman.ninja/ic4.php?f=BPXL&module=JSTAG&_pcbz=10876&_bcbz=10876&type=1";
+        s.appendChild(i);
+        d.getElementsByTagName('body')[0].appendChild(s);
+})(window, document);
+
+// refreshTypes: {
+//     1: "Active View", -> this is default
+//     2: "Active Tab",
+//     3: "BG"
+// }
+!(function () {
+	var REFRESH_COUNTRY_MAP = {
+		US: {
+			//This is the country code where the given refesh is supposed to be applicable. To make it applicable across all countries use "default" in place of country code
+			refreshInterval: 90, // this is in seconds
+			refreshType: 3,
+			sectionIdsToRefresh: [] //in case sectionIdsToRefresh list is empty it will be applicable on units/sections
+		},
+		default: {
+			refreshInterval: 30,
+			refreshType: 1,
+                        sectionIdsToRefresh: []
+		}
+	};
+	var adpushup = window.adpushup || {};
+    adpushup.que = window.adpushup.que || [];
+	adpushup.que.push(function () {
+		var customRefreshConfig = REFRESH_COUNTRY_MAP[adpushup.config.country] || REFRESH_COUNTRY_MAP['default'];
+		customRefreshConfig.refreshType = customRefreshConfig.refreshType || REFRESH_COUNTRY_MAP['default'].refreshType;
+		customRefreshConfig.refreshInterval =
+			customRefreshConfig.refreshInterval || REFRESH_COUNTRY_MAP['default'].refreshInterval;
+		if (window.location.search.indexOf('apDebug=true') !== -1) {
+			window.currentRefreshConfig = customRefreshConfig;
+			window.REFRESH_COUNTRY_MAP = REFRESH_COUNTRY_MAP;
+		}
+		var isUnitToBeRefreshed = function (sectionId, sectionIdsToRefresh) {
+			return !sectionIdsToRefresh.length || sectionIdsToRefresh.indexOf(sectionId) !== -1;
+		};
+		var setupRefreshIntervalTimeForUnits = function (customRefreshConfig) {
+			// Handle refreshInterval Innovative ads
+            if (adpushup.config.innovativeAds) {
+                adpushup.config.innovativeAds.forEach(function (ad) {
+                    if (ad.networkData.refreshSlot && isUnitToBeRefreshed(ad.id, customRefreshConfig.sectionIdsToRefresh)) {
+                        ad.networkData.refreshInterval = customRefreshConfig.refreshInterval;
+                    }
+                });
+            }
+			// Handle refreshInterval Manual Ads
+            if (adpushup.config.manualAds) {
+                adpushup.config.manualAds.forEach(function (ad, i) {
+                    if (ad.networkData.refreshSlot && isUnitToBeRefreshed(ad.id, customRefreshConfig.sectionIdsToRefresh)) {
+                        ad.networkData.refreshInterval = customRefreshConfig.refreshInterval;
+                    }
+                });
+            }
+			//Handle refreshInterval Layout Ads
+            if (adpushup.config.experiment) {
+                var experiment = adpushup.config.experiment;
+                for (var device in experiment) {
+                    for (var page_group in experiment[device]) {
+                        experiment[device][page_group].variations.forEach(function (variation, j) {
+                            variation.ads.forEach(function (ad) {
+                                if (
+                                    ad.networkData.refreshSlot &&
+                                    isUnitToBeRefreshed(ad.id, customRefreshConfig.sectionIdsToRefresh)
+                                ) {
+                                    ad.networkData.refreshInterval = customRefreshConfig.refreshInterval;
+                                }
+                            });
+                        });
+                    }
+                }
+            }
+		};
+		var setupUtilsCheckElementInViewPercentFn = function (customRefreshConfig) {
+			var utils = window.adpushup.utils;
+			var originalCheckElementInViewPercent = utils.checkElementInViewPercent.bind(utils);
+			//overwrite the function
+			window.adpushup.utils.checkElementInViewPercent = function (el) {
+				var $el = window.adpushup.$(el);
+				var elementOrigId = !!$el.data() ? ( $el.data().origId || $el.data().section ) : '';
+				if (elementOrigId && isUnitToBeRefreshed(elementOrigId, customRefreshConfig.sectionIdsToRefresh)) {
+					switch (customRefreshConfig.refreshType) {
+						case 2:
+							utils.log(`ActiveTab refresh for ${elementOrigId}`);
+							if (document.hasFocus()) {
+								return true;
+							}
+							break;
+						case 3:
+							utils.log(`BG refresh for ${elementOrigId}`);
+							return true;
+							break;
+					}
+				} else {
+					utils.log(`ActiveView refresh for ${elementOrigId}`);
+					return originalCheckElementInViewPercent(el);
+				}
+			};
+		};
+		if (customRefreshConfig && customRefreshConfig.sectionIdsToRefresh) {
+			setupRefreshIntervalTimeForUnits(customRefreshConfig);
+			setupUtilsCheckElementInViewPercentFn(customRefreshConfig);
+		}
+	});
+})();</script><script src="./cssmcq_files/gpt.js.download" async=""></script><script async="" src="./cssmcq_files/apstag.js.download"></script><script type="text/javascript">(function($){ 
+
+ })(adpushup.$)</script><style type="text/css">.dp-xml .cdata { color: #ff1493; }.dp-xml .tag, .dp-xml .tag-name { color: #069; font-weight: bold; }.dp-xml .attribute { color: red; }.dp-xml .attribute-value { color: blue; }</style><link rel="preload" href="./cssmcq_files/f(3).txt" as="script"><script type="text/javascript" src="./cssmcq_files/f(3).txt"></script><link rel="preload" href="./cssmcq_files/f(4).txt" as="script"><script type="text/javascript" src="./cssmcq_files/f(4).txt"></script><meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="./cssmcq_files/pubads_impl_2021040802.js.download" async=""></script><script src="./cssmcq_files/cse_element__en.js.download" type="text/javascript"></script><link type="text/css" rel="stylesheet" href="./cssmcq_files/default+en.css"><link type="text/css" rel="stylesheet" href="./cssmcq_files/espresso.css"><script src="./cssmcq_files/cse_element__en.js.download" type="text/javascript"></script><link type="text/css" rel="stylesheet" href="./cssmcq_files/default+en.css"><link type="text/css" rel="stylesheet" href="./cssmcq_files/espresso.css"><style type="text/css">.gsc-control-cse{font-family:georgia, arial, serif}.gsc-control-cse .gsc-table-result{font-family:georgia, arial, serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}.gsc-control-cse{border-color:#FFFFFF;background-color:#FFFFFF}input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus{border-color:#D3BCA1}.gsc-search-button-v2,.gsc-search-button-v2:hover,.gsc-search-button-v2:focus{border-color:#300D00;background-color:#461200;background-image:none;filter:none}.gsc-search-button-v2 svg{fill:#FFFFFF}.gsc-tabHeader.gsc-tabhActive,.gsc-refinementHeader.gsc-refinementhActive{color:#461200;border-color:#461200;background-color:#FFFFFF}.gsc-tabHeader.gsc-tabhInactive,.gsc-refinementHeader.gsc-refinementhInactive{color:#950000;border-color:#950000;background-color:#FFFFFF}.gsc-webResult.gsc-result,.gsc-results .gsc-imageResult{border-color:#FFFFFF;background-color:#FFFFFF}.gsc-webResult.gsc-result:hover{border-color:#FFFFFF;background-color:#FFFFFF}.gs-webResult.gs-result a.gs-title:link,.gs-webResult.gs-result a.gs-title:link b,.gs-imageResult a.gs-title:link,.gs-imageResult a.gs-title:link b{color:#950000}.gs-webResult.gs-result a.gs-title:visited,.gs-webResult.gs-result a.gs-title:visited b,.gs-imageResult a.gs-title:visited,.gs-imageResult a.gs-title:visited b{color:#950000}.gs-webResult.gs-result a.gs-title:hover,.gs-webResult.gs-result a.gs-title:hover b,.gs-imageResult a.gs-title:hover,.gs-imageResult a.gs-title:hover b{color:#950000}.gs-webResult.gs-result a.gs-title:active,.gs-webResult.gs-result a.gs-title:active b,.gs-imageResult a.gs-title:active,.gs-imageResult a.gs-title:active b{color:#950000}.gsc-cursor-page{color:#950000}a.gsc-trailing-more-results:link{color:#950000}.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,.gs-fileFormatType{color:#333333}.gs-webResult div.gs-visibleUrl{color:#A25B08}.gs-webResult div.gs-visibleUrl-short{color:#A25B08}.gsc-cursor-box{border-color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-page{border-color:#950000;background-color:#FFFFFF;color:#950000}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{border-color:#461200;background-color:#FFFFFF;color:#461200}.gsc-webResult.gsc-result.gsc-promotion{border-color:#FEFEDC;background-color:#FFFFCC}.gsc-completion-title{color:#950000}.gsc-completion-snippet{color:#333333}.gs-promotion a.gs-title:link,.gs-promotion a.gs-title:link *,.gs-promotion .gs-snippet a:link{color:#0000CC}.gs-promotion a.gs-title:visited,.gs-promotion a.gs-title:visited *,.gs-promotion .gs-snippet a:visited{color:#0000CC}.gs-promotion a.gs-title:hover,.gs-promotion a.gs-title:hover *,.gs-promotion .gs-snippet a:hover{color:#0000CC}.gs-promotion a.gs-title:active,.gs-promotion a.gs-title:active *,.gs-promotion .gs-snippet a:active{color:#0000CC}.gs-promotion .gs-snippet,.gs-promotion .gs-title .gs-promotion-title-right,.gs-promotion .gs-title .gs-promotion-title-right *{color:#333333}.gs-promotion .gs-visibleUrl,.gs-promotion .gs-visibleUrl-short{color:#A25B08}.gcsc-find-more-on-google{color:#950000}.gcsc-find-more-on-google-magnifier{fill:#950000}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:0 9px}.gsib_a{padding:5px 9px 4px 9px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:0 9px}.gsib_a{padding:5px 9px 4px 9px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style><style type="text/css">.gsc-control-cse{font-family:georgia, arial, serif}.gsc-control-cse .gsc-table-result{font-family:georgia, arial, serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}.gsc-control-cse{border-color:#FFFFFF;background-color:#FFFFFF}input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus{border-color:#D3BCA1}.gsc-search-button-v2,.gsc-search-button-v2:hover,.gsc-search-button-v2:focus{border-color:#300D00;background-color:#461200;background-image:none;filter:none}.gsc-search-button-v2 svg{fill:#FFFFFF}.gsc-tabHeader.gsc-tabhActive,.gsc-refinementHeader.gsc-refinementhActive{color:#461200;border-color:#461200;background-color:#FFFFFF}.gsc-tabHeader.gsc-tabhInactive,.gsc-refinementHeader.gsc-refinementhInactive{color:#950000;border-color:#950000;background-color:#FFFFFF}.gsc-webResult.gsc-result,.gsc-results .gsc-imageResult{border-color:#FFFFFF;background-color:#FFFFFF}.gsc-webResult.gsc-result:hover{border-color:#FFFFFF;background-color:#FFFFFF}.gs-webResult.gs-result a.gs-title:link,.gs-webResult.gs-result a.gs-title:link b,.gs-imageResult a.gs-title:link,.gs-imageResult a.gs-title:link b{color:#950000}.gs-webResult.gs-result a.gs-title:visited,.gs-webResult.gs-result a.gs-title:visited b,.gs-imageResult a.gs-title:visited,.gs-imageResult a.gs-title:visited b{color:#950000}.gs-webResult.gs-result a.gs-title:hover,.gs-webResult.gs-result a.gs-title:hover b,.gs-imageResult a.gs-title:hover,.gs-imageResult a.gs-title:hover b{color:#950000}.gs-webResult.gs-result a.gs-title:active,.gs-webResult.gs-result a.gs-title:active b,.gs-imageResult a.gs-title:active,.gs-imageResult a.gs-title:active b{color:#950000}.gsc-cursor-page{color:#950000}a.gsc-trailing-more-results:link{color:#950000}.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,.gs-fileFormatType{color:#333333}.gs-webResult div.gs-visibleUrl{color:#A25B08}.gs-webResult div.gs-visibleUrl-short{color:#A25B08}.gsc-cursor-box{border-color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-page{border-color:#950000;background-color:#FFFFFF;color:#950000}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{border-color:#461200;background-color:#FFFFFF;color:#461200}.gsc-webResult.gsc-result.gsc-promotion{border-color:#FEFEDC;background-color:#FFFFCC}.gsc-completion-title{color:#950000}.gsc-completion-snippet{color:#333333}.gs-promotion a.gs-title:link,.gs-promotion a.gs-title:link *,.gs-promotion .gs-snippet a:link{color:#0000CC}.gs-promotion a.gs-title:visited,.gs-promotion a.gs-title:visited *,.gs-promotion .gs-snippet a:visited{color:#0000CC}.gs-promotion a.gs-title:hover,.gs-promotion a.gs-title:hover *,.gs-promotion .gs-snippet a:hover{color:#0000CC}.gs-promotion a.gs-title:active,.gs-promotion a.gs-title:active *,.gs-promotion .gs-snippet a:active{color:#0000CC}.gs-promotion .gs-snippet,.gs-promotion .gs-title .gs-promotion-title-right,.gs-promotion .gs-title .gs-promotion-title-right *{color:#333333}.gs-promotion .gs-visibleUrl,.gs-promotion .gs-visibleUrl-short{color:#A25B08}.gcsc-find-more-on-google{color:#950000}.gcsc-find-more-on-google-magnifier{fill:#950000}</style><script data-avast-pam="y" type="text/javascript" name="AVAST_PAM_submitInjector">(function _submitInjector() {
+      var f = document.querySelectorAll("form")[0]; // eslint-disable-line no-undef
+
+      if (!f._avast_submit) {
+        f._avast_submit = f.submit;
+      }
+
+      try {
+        Object.defineProperty(f, "submit", {
+          get() {
+            return function (prev_submit) {
+              prev_submit.call(this);
+
+              if (this._avast_inside_submit) {
+                return;
+              }
+
+              this._avast_inside_submit = true;
+              var evt = document.createEvent("CustomEvent");
+              evt.initEvent("scriptsubmit", true, true); // bubbling & cancelable
+
+              this.dispatchEvent(evt);
+              delete this._avast_inside_submit;
+            }.bind(this, this._avast_submit);
+          },
+
+          set(submitFunc) {
+            this._avast_submit = submitFunc;
+          }
+
+        });
+      } catch (ex) {// ignored
+      }
+    })();</script><link rel="preload" href="./cssmcq_files/f(3).txt" as="script"><script type="text/javascript" src="./cssmcq_files/f(3).txt"></script><link rel="preload" href="./cssmcq_files/f(4).txt" as="script"><script type="text/javascript" src="./cssmcq_files/f(4).txt"></script><link rel="preload" href="./cssmcq_files/f(3).txt" as="script"><script type="text/javascript" src="./cssmcq_files/f(3).txt"></script><link rel="preload" href="./cssmcq_files/f(4).txt" as="script"><script type="text/javascript" src="./cssmcq_files/f(4).txt"></script></head>  
+<body onload="highlightlink()"> 
+ 
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">&#8679;</button>
+<div id="page" style="margin: -8px; background-color: rgb(245, 245, 244); height: auto !important;"><div id="container" style="height: auto !important;"> <div class="header"><table style="width:100%;margin-bottom:5px"> <tbody><tr> <td> <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> <a href="https://www.javatpoint.com/"><img src="./cssmcq_files/jtp_logo.png" alt="Javatpoint Logo"></a> </div> <div style="float:left;width:60%;"><script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script><div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" id="gsc-i-id1" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="Clear search box" role="button" style="display: none;"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form><div class="gsc-results-wrapper-nooverlay"><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"><div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div><span class="gs-spacer"> </span></div></div><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"></div></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><div><div class="gsc-expansionArea"></div></div></div></div></div></div></div></div></div> </div> </td> </tr></tbody></table> </div>
+<div class="headermobile">
+<div style="margin-top:10px;padding:0px;text-align:left;">
+<span style="float:left"><input type="image" src="./cssmcq_files/menuhome64.png" alt="Go To Top" onclick="showmenu()"></span>
+<span style="float:left"><a href="https://www.javatpoint.com/"><img src="./cssmcq_files/jtp_logo(1).png" alt="Javatpoint Logo"></a></span>
+
+</div>
+<div style="margin:0px;padding:0px;clear:both">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div id="___gcse_1"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id2"><table cellspacing="0" cellpadding="0" id="gs_id51" class="gstl_51 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti51" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" id="gsc-i-id2" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st51" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="Clear search box" role="button" style="display: none;"><span class="gscb_a" id="gs_cb51" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form><div class="gsc-results-wrapper-nooverlay"><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"><div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div><span class="gs-spacer"> </span></div></div><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"></div></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><div><div class="gsc-expansionArea"></div></div></div></div></div></div></div></div></div>
+<!--<form class="navbar-search-m" method="get" action="https://www.google.com/search" target="_blank"> <input type="text" name="q" class="search-query span2-m" placeholder="Search on javatpoint..." title="Search on Javatpoint"/><input type="hidden" name="sitesearch" value="www.javatpoint.com"/></form>-->
+
+</div>
+</div>
+<div id="link" style="clear:both"> <div class="ddsmoothmenu">
+<ul>
+<li><a href="https://www.javatpoint.com/">Home</a></li>
+<li><a href="https://www.javatpoint.com/css-tutorial" class="selected">CSS</a></li>
+<li><a href="https://www.javatpoint.com/html-tutorial">HTML</a></li>
+<li><a href="https://www.javatpoint.com/bootstrap-tutorial">Bootstrap</a></li>
+<li><a href="https://www.javatpoint.com/javascript-tutorial">JavaScript</a></li>
+<li><a href="https://www.javatpoint.com/jquery-tutorial">jQuery</a></li>
+<li><a href="https://www.javatpoint.com/sass-tutorial">Sass</a></li>
+<li><a href="https://www.javatpoint.com/less-tutorial">Less</a></li>
+<li><a href="https://www.javatpoint.com/xml-tutorial">XML</a></li>
+<li><a href="https://www.javatpoint.com/json-tutorial">JSON</a></li>
+<li><a href="https://www.javatpoint.com/ajax-tutorial">Ajax</a></li>
+<li><a href="https://www.javatpoint.com/nodejs-tutorial">Node.js</a></li>
+<li><a href="https://www.javatpoint.com/c-programming-language-tutorial">C</a></li>
+<li><a href="https://www.javatpoint.com/java-tutorial">Java</a></li>
+<li><a href="https://www.javatpoint.com/python-tutorial">Python</a></li>
+<li><a href="https://www.javatpoint.com/php-tutorial">PHP</a></li>
+<li><a href="https://www.javatpoint.com/corejava-interview-questions">Interview Q</a></li>
+
+</ul>
+<br style="clear: left">
+</div></div>
+<div class="mobilemenu" style="clear:both"> 
+<!-- Cm_300x250_Mob_14/9 -->
+<ins class="adPushupAds" data-adpcontrol="hqdgs" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4=" data-push="1"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+
+<div id="menu">
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">CSS Tutorial</span></h2>
+</div>
+
+<div class="leftmenu">
+<a href="https://www.javatpoint.com/css-tutorial">Introduction to CSS</a>
+<a href="https://www.javatpoint.com/what-is-css">What is CSS</a>
+<a href="https://www.javatpoint.com/css-syntax">CSS Syntax</a>
+<a href="https://www.javatpoint.com/css-selector">CSS Selector</a>
+<a href="https://www.javatpoint.com/how-to-add-css">How to Add CSS</a>
+<a href="https://www.javatpoint.com/inline-css">Inline CSS</a>
+<a href="https://www.javatpoint.com/internal-css">Internal CSS</a>
+<a href="https://www.javatpoint.com/external-css">External CSS</a>
+<a href="https://www.javatpoint.com/css-comments">CSS Comments</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">CSS Properties</span></h2>
+</div>
+<div class="leftmenu">
+<a href="https://www.javatpoint.com/css-background">CSS Background</a>
+<a href="https://www.javatpoint.com/css-border">CSS Border</a>
+<a href="https://www.javatpoint.com/css-border-radius-property">CSS border-radius</a>
+<a href="https://www.javatpoint.com/css-border-collapse-property">CSS border-collapse</a>
+<a href="https://www.javatpoint.com/css-border-spacing-property">CSS border-spacing</a>
+
+<a href="https://www.javatpoint.com/css-display">CSS Display</a>
+<a href="https://www.javatpoint.com/css-cursor">CSS Cursor</a>
+<a href="https://www.javatpoint.com/css-buttons">CSS Buttons</a>
+
+<a href="https://www.javatpoint.com/css-float">CSS Float</a>
+<a href="https://www.javatpoint.com/css-font">CSS Font</a>
+<a href="https://www.javatpoint.com/css-font-size">CSS Font-size</a>
+<a href="https://www.javatpoint.com/css-font-family">CSS font-family</a>
+<a href="https://www.javatpoint.com/css-font-weight">CSS font-weight</a>
+<a href="https://www.javatpoint.com/css-font-stretch-property">CSS font-stretch</a>
+
+<a href="https://www.javatpoint.com/css-colors">CSS Colors</a>
+
+<a href="https://www.javatpoint.com/css-hover">CSS Hover</a>
+<a href="https://www.javatpoint.com/css-important">CSS Important</a>
+
+<a href="https://www.javatpoint.com/css-background-color">CSS Background-color</a>
+<a href="https://www.javatpoint.com/css-background-attachment-property">background-attachment</a>
+<a href="https://www.javatpoint.com/css-background-size-property">background-size</a>
+
+<a href="https://www.javatpoint.com/css-line-height">CSS Line Height</a>
+<a href="https://www.javatpoint.com/css-margin">CSS Margin</a>
+<a href="https://www.javatpoint.com/css-opacity">CSS Opacity</a>
+
+<a href="https://www.javatpoint.com/css-filter">CSS filter</a>
+<a href="https://www.javatpoint.com/css-images">CSS Images</a>
+
+<a href="https://www.javatpoint.com/css-overflow">CSS Overflow</a>
+<a href="https://www.javatpoint.com/css-padding">CSS Padding</a>
+<a href="https://www.javatpoint.com/css-position">CSS Position</a>
+<a href="https://www.javatpoint.com/css-vertical-align">CSS Vertical Align</a>
+<a href="https://www.javatpoint.com/css-white-space">CSS White Space</a>
+<a href="https://www.javatpoint.com/css-width">CSS Width</a>
+<a href="https://www.javatpoint.com/css-height-property">CSS height</a>
+<a href="https://www.javatpoint.com/css-word-wrap">CSS Word Wrap</a>
+<a href="https://www.javatpoint.com/box-shadow-css">Box-shadow CSS</a>
+
+<a href="https://www.javatpoint.com/css-text-shadow">CSS Text-shadow</a>
+<a href="https://www.javatpoint.com/css-text-transform">CSS text-transform</a>
+
+<a href="https://www.javatpoint.com/css-outline">CSS Outline</a> 
+<a href="https://www.javatpoint.com/css-visibility">CSS Visibility</a> 
+<a href="https://www.javatpoint.com/css-counter">CSS Counter</a>
+<a href="https://www.javatpoint.com/css-clearfix">CSS clearfix</a>
+<a href="https://www.javatpoint.com/css-icons">CSS icons</a>
+<a href="https://www.javatpoint.com/css-justify-content">CSS justify-content</a>
+<a href="https://www.javatpoint.com/css-text-decoration">CSS text-decoration</a>
+<a href="https://www.javatpoint.com/css-lists">CSS Lists</a>
+<a href="https://www.javatpoint.com/css-nth-child-selector">CSS nth selector</a>
+<a href="https://www.javatpoint.com/css-sticky">CSS sticky</a>
+
+<a href="https://www.javatpoint.com/css-background-clip">CSS background-clip</a>
+<a href="https://www.javatpoint.com/css-checkbox-style">CSS checkbox style</a>
+<a href="https://www.javatpoint.com/css-letter-spacing">CSS letter-spacing</a>
+<a href="https://www.javatpoint.com/css-navigation-bar">CSS Navigation bar</a>
+<a href="https://www.javatpoint.com/css-overlay">CSS overlay</a>
+<a href="https://www.javatpoint.com/css-root-selector">CSS root</a>
+<a href="https://www.javatpoint.com/css-specificity">CSS Specificity</a>
+<a href="https://www.javatpoint.com/css-text-indent">CSS text-indent</a>
+<a href="https://www.javatpoint.com/css-text-stroke">CSS text-stroke</a>
+<a href="https://www.javatpoint.com/css-zoom">CSS Zoom</a>
+<a href="https://www.javatpoint.com/css-order">CSS order</a>
+<a href="https://www.javatpoint.com/css-descendant-selector">CSS Descendant Selector</a>
+<a href="https://www.javatpoint.com/css-calc">CSS calc()</a>
+<a href="https://www.javatpoint.com/css-clip">CSS Clip</a>
+<a href="https://www.javatpoint.com/css-clip-path">CSS clip-path</a>
+<a href="https://www.javatpoint.com/css-background-blend-mode">CSS background-blend-mode</a>
+<a href="https://www.javatpoint.com/css-radio-button">CSS Radio Button</a>
+<a href="https://www.javatpoint.com/css-superscript-and-subscript">Superscript &amp; Subscript</a>
+<a href="https://www.javatpoint.com/css-text-effects">CSS Text Effects</a>
+<a href="https://www.javatpoint.com/css-text-align">CSS text-align</a>
+<a href="https://www.javatpoint.com/css-variables">CSS Variables</a>
+<a href="https://www.javatpoint.com/css-page-break-before-property">page-break-before property</a>
+<a href="https://www.javatpoint.com/css-page-break-inside-property">page-break-inside property</a>
+<a href="https://www.javatpoint.com/css-page-break-after-property">page-break-after property</a>
+<a href="https://www.javatpoint.com/css-content-property">CSS content property</a>
+<a href="https://www.javatpoint.com/css-word-spacing">CSS word-spacing</a>
+<a href="https://www.javatpoint.com/css-object-fit-property">CSS object-fit</a>
+<a href="https://www.javatpoint.com/css-object-position-property">CSS object-position</a>
+<a href="https://www.javatpoint.com/css-columns">CSS columns</a>
+<a href="https://www.javatpoint.com/css-pointer-events-property">CSS pointer-events</a>
+<a href="https://www.javatpoint.com/css-hyphens-property">CSS hyphens</a>
+<a href="https://www.javatpoint.com/css-font-variant-property">CSS font-variant</a>
+<a href="https://www.javatpoint.com/css-left-property">CSS left property</a>
+<a href="https://www.javatpoint.com/css-right-property">CSS right property</a>
+<a href="https://www.javatpoint.com/css-bottom-property">CSS bottom property</a>
+<a href="https://www.javatpoint.com/css-top-property">CSS top property</a>
+<a href="https://www.javatpoint.com/css-word-break-property">word-break property</a>
+<a href="https://www.javatpoint.com/css-max-height-property">CSS max-height</a>
+<a href="https://www.javatpoint.com/css-max-width-property">CSS max-width</a>
+<a href="https://www.javatpoint.com/css-min-height-property">CSS min-height</a>
+<a href="https://www.javatpoint.com/css-min-width-property">CSS min-width</a>
+
+<a href="https://www.javatpoint.com/css-border-image-property">CSS border-image</a>
+<a href="https://www.javatpoint.com/css-cubic-bezier-function">CSS cubic-bezier</a>
+<a href="https://www.javatpoint.com/css-quotes">CSS quotes</a>
+<a href="https://www.javatpoint.com/css-transform-origin-property">CSS transform-origin</a>
+<a href="https://www.javatpoint.com/css-resize-property">CSS resize</a>
+<a href="https://www.javatpoint.com/css-text-overflow-property">CSS text-overflow</a>
+<a href="https://www.javatpoint.com/css-writing-mode-property">CSS writing-mode</a>
+<a href="https://www.javatpoint.com/css-background-origin-property">CSS background-origin</a>
+<a href="https://www.javatpoint.com/css-text-orientation-property">CSS text-orientation</a>
+<a href="https://www.javatpoint.com/css-transition-delay-property">CSS transition-delay</a>
+
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">CSS Advance</span></h2>
+</div>
+<div class="leftmenu">
+<a href="https://www.javatpoint.com/css-animation">CSS Animation</a>
+<a href="https://www.javatpoint.com/css-keyframes-rule">CSS @keyframes rule</a>
+<a href="https://www.javatpoint.com/css-pseudo-classes">CSS pseudo-classes</a>
+<a href="https://www.javatpoint.com/css-pseudo-elements">CSS Pseudo-elements</a>
+<a href="https://www.javatpoint.com/css-radial-gradient-function">CSS radial-gradient</a>
+<a href="https://www.javatpoint.com/css-translate-function">CSS translate</a>
+<a href="https://www.javatpoint.com/css-gradient">CSS Gradient</a>
+<a href="https://www.javatpoint.com/css-z-index">CSS z-index</a>
+<a href="https://www.javatpoint.com/css-minify">CSS minify</a>
+<a href="https://www.javatpoint.com/css-loader">CSS Loader</a>
+<a href="https://www.javatpoint.com/css-units">CSS units</a>
+<a href="https://www.javatpoint.com/css-combinators">CSS Combinators</a>
+<a href="https://www.javatpoint.com/css-masking">CSS masking</a>
+
+<a href="https://www.javatpoint.com/css-transition">CSS Transition</a>
+<a href="https://www.javatpoint.com/css-tooltips">CSS Tooltips</a> 
+<a href="https://www.javatpoint.com/css-tooltip-animation">CSS Tooltip Animation</a>
+<a href="https://www.javatpoint.com/css-arrow">CSS Arrow</a> 
+<a href="https://www.javatpoint.com/css-flexbox">CSS FlexBox</a> 
+<a href="https://www.javatpoint.com/css-flex-property">CSS flex property</a>
+<a href="https://www.javatpoint.com/css-flex-basis-property">flex-basis property</a>
+<a href="https://www.javatpoint.com/css-flex-grow-property">flex-grow property</a>
+<a href="https://www.javatpoint.com/css-flex-shrink-property">flex-shrink property</a>
+<a href="https://www.javatpoint.com/css-flex-flow-property">flex-flow property</a>
+<a href="https://www.javatpoint.com/css-media-query">CSS @Media Query</a> 
+<a href="https://www.javatpoint.com/css-2d-transforms">CSS 2D Transforms</a> 
+<a href="https://www.javatpoint.com/css-3d-transforms">CSS 3D Transforms</a>
+<a href="https://www.javatpoint.com/css-aural-media">CSS Aural Media</a> 
+<a href="https://www.javatpoint.com/css-user-interface">CSS User Interface</a> 
+<a href="https://www.javatpoint.com/css-pagination">CSS Pagination</a> 
+
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">CSS Design</span></h2>
+</div>
+<div class="leftmenu">
+<a href="https://www.javatpoint.com/css-grid">CSS Grid</a>
+<a href="https://www.javatpoint.com/css-layout">CSS Layout</a>
+<a href="https://www.javatpoint.com/css-table">CSS Table</a>
+<a href="https://www.javatpoint.com/css-box-model">CSS Box Model</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">CSS Questions</span></h2>
+</div>
+<div class="leftmenu">
+<a href="https://www.javatpoint.com/how-to-center-a-table-in-css">How to center a table in CSS</a>
+<a href="https://www.javatpoint.com/how-to-center-text-in-css">How to center text in CSS</a>
+<a href="https://www.javatpoint.com/how-to-add-background-image-in-css">How to add background image in CSS</a>
+
+<a href="https://www.javatpoint.com/how-to-vertically-align-text-with-css">How to vertically align text with CSS</a>
+<a href="https://www.javatpoint.com/how-to-underline-text-in-css">How to underline text in CSS</a>
+<a href="https://www.javatpoint.com/how-to-add-border-in-css">How to add border in CSS</a>
+<a href="https://www.javatpoint.com/how-to-align-images-in-css">How to align images in CSS</a>
+<a href="https://www.javatpoint.com/how-to-align-text-in-css">How to align text in CSS</a>
+<a href="https://www.javatpoint.com/how-to-center-images-in-css">How to center images in CSS</a>
+<a href="https://www.javatpoint.com/how-to-bold-text-in-css">How to bold text in CSS</a>
+<a href="https://www.javatpoint.com/how-to-center-a-button-in-css">How to center a button in CSS</a>
+<a href="https://www.javatpoint.com/how-to-change-background-color-in-css">How to change background color in CSS</a>
+<a href="https://www.javatpoint.com/how-to-change-the-font-size-in-css">How to change the font size in CSS</a>
+<a href="https://www.javatpoint.com/how-to-change-image-size-in-css">How to change image size in CSS</a>
+<a href="https://www.javatpoint.com/how-to-change-link-color-in-css">How to change link color in CSS</a>
+<a href="https://www.javatpoint.com/how-to-change-text-color-in-css">How to change text color in CSS</a>
+<a href="https://www.javatpoint.com/how-to-use-the-css-grid">How to use the CSS grid</a>
+<a href="https://www.javatpoint.com/how-to-use-google-fonts-in-css">How to use Google fonts in CSS</a>
+<a href="https://www.javatpoint.com/how-to-wrap-text-in-css">How to wrap text in CSS</a>
+<a href="https://www.javatpoint.com/how-to-italicize-text-in-css">How to italicize text in CSS</a>
+<a href="https://www.javatpoint.com/what-are-the-uses-of-css">What are the uses of CSS</a>
+<a href="https://www.javatpoint.com/what-is-a-css-grid">What is a CSS grid</a>
+<a href="https://www.javatpoint.com/how-to-change-the-font-in-css">How to change the font in CSS</a>
+<a href="https://www.javatpoint.com/how-to-position-an-image-in-css">How to position an image in CSS</a>
+<a href="https://www.javatpoint.com/how-to-remove-bullet-points-in-css">How to remove bullet points in CSS</a>
+<a href="https://www.javatpoint.com/html-vs-css">Difference between HTML and CSS</a>
+<a href="https://www.javatpoint.com/css-transition-opacity">CSS Transition Opacity</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Miscellaneous</span></h2>
+</div>
+<div class="leftmenu">
+<a href="https://www.javatpoint.com/margin-vs-padding">Margin vs Padding</a>
+<a href="https://www.javatpoint.com/css-class-vs-id">Class vs Id</a>
+<a href="https://www.javatpoint.com/css-scrollbar">CSS Scrollbar</a>
+<a href="https://www.javatpoint.com/types-of-css">Types of CSS</a>
+<a href="https://www.javatpoint.com/css-vs-css3">CSS vs CSS3</a>
+<a href="https://www.javatpoint.com/css-vs-scss">CSS vs SCSS</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">CSS MCQ</span></h2>
+</div>
+<div class="leftmenu">
+<a href="https://www.javatpoint.com/css-mcq" style="color: black;"><strong>CSS MCQ</strong> <img src="./cssmcq_files/open-12.png" alt="open link"></a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Interview Questions</span></h2>
+</div>
+<div class="leftmenu">
+<a href="https://www.javatpoint.com/css-interview-questions">CSS Interview Questions</a>
+</div>
+<img src="./cssmcq_files/wh.JPG" alt="JavaTpoint">
+<br>
+<div id="leftad" style="margin-left:20px">
+<!-- javatpointleft -->
+<ins class="adPushupAds" data-adpcontrol="g8drp" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBqYXZhdHBvaW50bGVmdCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3dpZHRoOjE2MHB4O2hlaWdodDo2MDBweCIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI0NDc2NDAxMjIyIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+" data-push="1"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+<div id="8b476cee-75c9-4caf-a662-cd49b79c2ba9" data-section="8b476cee-75c9-4caf-a662-cd49b79c2ba9" class="_ap_apex_ad" data-xpath="#menu" data-section-id="" data-render-time="1618077665052" data-ap-network="adpTags" style="display: block; clear: both; text-align: center; margin: 20px auto; width: 160px; height: 600px; overflow: hidden;"><div id="ADP_37780_160X600_8b476cee-75c9-4caf-a662-cd49b79c2ba9" style="text-align: center; margin: 0 auto;" data-google-query-id="CM_O34qw9O8CFcaShQodMEMFnQ">
+<script type="text/javascript">
+window.adpushup.adpTags.que.push(function(){
+window.adpushup.adpTags.display("ADP_37780_160X600_8b476cee-75c9-4caf-a662-cd49b79c2ba9");
+});
+</script>
+<div id="google_ads_iframe_/103512698/21773424079_0__container__" style="border: 0pt none; width: 160px; height: 600px;"></div></div></div><div class="adp_interactive_ad" style="width: 160px; height: 600px;"><div id="75781991-c109-4107-b6cd-bcaebbbb369d" data-section="75781991-c109-4107-b6cd-bcaebbbb369d" class="_ap_apex_ad" data-render-time="1618077665059" style="background: transparent; width: 160px; height: 600px; display: block; text-align: center; position: fixed; inset: 0px auto auto; z-index: 10000; margin: 0px;"><div id="ADP_37780_160X600_75781991-c109-4107-b6cd-bcaebbbb369d" style="text-align: center; margin: 0 auto;" data-google-query-id="CNLO34qw9O8CFcaShQodMEMFnQ">
+<script type="text/javascript">
+window.adpushup.adpTags.que.push(function(){
+window.adpushup.adpTags.display("ADP_37780_160X600_75781991-c109-4107-b6cd-bcaebbbb369d");
+});
+</script>
+<div id="google_ads_iframe_/103512698/21929136915_0__container__" style="border: 0pt none; width: 160px; height: 600px;"></div></div></div></div></div>
+<div class="onlycontent" style="height: auto !important;"><div id="560740ef-114b-4b94-8a1b-52dc344b2054" data-section="560740ef-114b-4b94-8a1b-52dc344b2054" class="_ap_apex_ad" data-xpath=".onlycontent:eq(0)" data-section-id="" data-render-time="1618077665054" data-ap-network="adpTags" style="display: block; clear: both; text-align: center; margin: 10px auto 20px; width: 728px; height: 90px; overflow: hidden;"><div id="ADP_37780_728X90_560740ef-114b-4b94-8a1b-52dc344b2054" style="text-align: center; margin: 0 auto;" data-google-query-id="CIOH4Yqw9O8CFcaShQodMEMFnQ">
+
+<div id="google_ads_iframe_/103512698/21845298506_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/103512698/21845298506_0" title="3rd party ad content" name="google_ads_iframe_/103512698/21845298506_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement &#39;src&#39;" style="border: 0px; vertical-align: bottom;" data-google-container-id="4" data-load-complete="true" src="./cssmcq_files/saved_resource.html"></iframe></div></div></div>
+<div class="onlycontentad">
+<!-- CM_JTP_Leaderbaord -->
+<ins class="adPushupAds" data-adpcontrol="nuoc1" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDTV9KVFBfTGVhZGVyYmFvcmQgLS0+CjxpbnMgY2xhc3M9ImFkc2J5Z29vZ2xlIgogICAgIHN0eWxlPSJkaXNwbGF5OmJsb2NrIgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjkyMDE5MDE5MTUiCiAgICAgZGF0YS1hZC1mb3JtYXQ9ImF1dG8iCiAgICAgZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmU9InRydWUiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4=" data-push="1"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+<div class="onlycontentinner" style="height: auto !important;">
+<div id="city">
+<table>
+<tbody><tr><td>
+
+<div id="bottomnextup">
+<a class="next" href="https://www.javatpoint.com/css-tutorial">next &#8594;</a>
+<a class="next" href="https://www.javatpoint.com/css-tutorial">&#8592; prev</a>
+</div>
+
+<h1 class="h1">CSS MCQ</h1>
+<p class="pq">1) CSS stands for -</p>
+<ol class="pointsa">
+<li>Cascade style sheets</li>
+<li>Color and style sheets</li>
+<li>Cascading style sheets</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(1)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext1">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(1)"><span id="btntext1">Workspace</span></button> 
+<div id="workspace1"></div>
+<div class="testanswer" id="answer1" style="display: block;">
+<p><strong>Answer:</strong> (c) Cascading style sheets</p>
+<p><strong>Explanation:</strong> CSS stands for Cascading Style Sheet. CSS is used to design HTML tags. CSS is a widely used language on the web. HTML, CSS and JavaScript are used for web designing. It helps the web designers to apply style on HTML tags.</p>
+</div>
+<hr>
+<p class="pq">2) Which of the following is the correct syntax for referring the external style sheet?</p>
+<ol class="pointsa">
+<li>&lt;style src = example.css&gt;</li>
+<li>&lt;style src = "example.css" &gt;</li>
+<li>&lt;stylesheet&gt; example.css &lt;/stylesheet&gt;</li>
+<li>&lt;link rel="stylesheet" type="text/css" href="example.css"&gt;</li>
+</ol>
+<button class="showanswer" onclick="showhide(2)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext2">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(2)"><span id="btntext2">Workspace</span></button> 
+<div id="workspace2"></div>
+<div class="testanswer" id="answer2" style="display: block;">
+<p><strong>Answer:</strong> (d) &lt;link rel="stylesheet" type="text/css" href="example.css"&gt;</p>
+<p><strong>Explanation:</strong> The external style sheet is generally used when you want to make changes on multiple pages. It uses the &lt;link&gt; tag on every pages and the &lt;link&gt; tag should be put inside the head section.</p>
+</div>
+<hr>
+<p class="pq">3) The property in CSS used to change the background color of an element is -</p><div id="1bd7736f-7392-442c-8af5-f7439cb63894" data-section="1bd7736f-7392-442c-8af5-f7439cb63894" class="_ap_apex_ad" data-xpath="#city &gt; table:eq(0) &gt; tbody:eq(0) &gt; tr:eq(0) &gt; td:eq(0) &gt; p:eq(2)" data-section-id="" data-render-time="1618077665050" data-ap-network="adpTags" style="display: block; clear: both; text-align: center; margin: 0px auto 40px; width: 336px; height: 280px; overflow: hidden; position: relative;"><div id="ADP_37780_336X280_1bd7736f-7392-442c-8af5-f7439cb63894" style="text-align: center; margin: 0 auto;" data-google-query-id="CIGH4Yqw9O8CFcaShQodMEMFnQ">
+
+<div id="google_ads_iframe_/103512698/21823421322_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/103512698/21823421322_0" title="3rd party ad content" name="google_ads_iframe_/103512698/21823421322_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement &#39;src&#39;" style="border: 0px; vertical-align: bottom;" data-google-container-id="2" data-load-complete="true" src="./cssmcq_files/saved_resource(1).html"></iframe></div></div></div>
+<ol class="pointsa">
+<li>bgcolor</li>
+<li>color</li>
+<li>background-color</li>
+<li>All of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(3)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext3">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(3)"><span id="btntext3">Workspace</span></button> 
+<div id="workspace3"></div>
+<div class="testanswer" id="answer3" style="display: block;">
+<p><strong>Answer:</strong> (c) background-color</p>
+<p><strong>Explanation:</strong> The background-color property is used to specify the background color of an element. The background of an element covers the total size, including the padding and border and excluding margin.</p>
+</div>
+<hr>
+<p class="pq">4) The property in CSS used to change the text color of an element is -</p>
+<ol class="pointsa">
+<li>bgcolor</li>
+<li>color</li>
+<li>background-color</li>
+<li>All of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(4)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext4">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(4)"><span id="btntext4">Workspace</span></button> 
+<div id="workspace4"></div>
+<div class="testanswer" id="answer4" style="display: block;">
+<p><strong>Answer:</strong> (b) color</p>
+<p><strong>Explanation:</strong> The color property in CSS is used to set the color of HTML elements. Typically, this property is used to set the font color of an element. In CSS, we use color values for specifying the color. We can also use this property for the border-color and other decorative effects.</p>
+</div>
+<hr>
+<p class="pq">5) The CSS property used to control the element's font-size is -</p>
+<ol class="pointsa">
+<li>text-style</li>
+<li>text-size</li>
+<li>font-size</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(5)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext5">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(5)"><span id="btntext5">Workspace</span></button> 
+<div id="workspace5"></div>
+<div class="testanswer" id="answer5" style="display: block;">
+<p><strong>Answer:</strong> (c) font-size</p>
+<p><strong>Explanation:</strong> The font-size property in CSS is used to specify the height and size of the font. It affects the size of the text of an element. Its default value is medium and can be applied to every element.</p>
+</div>
+<hr>
+<p class="pq">6) The HTML attribute used to define the inline styles is -</p>
+<ol class="pointsa">
+<li>style</li>
+<li>styles</li>
+<li>class</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(6)"><span id="btntext6">Show Answer</span></button> 
+<button class="workspace" onclick="showworkspace(6)"><span id="btntext6">Workspace</span></button> 
+<div id="workspace6"></div>
+<div class="testanswer" id="answer6">
+<p><strong>Answer:</strong> (a) style</p>
+<p><strong>Explanation:</strong> If you want to use inline CSS, you should use the style attribute to the relevant tag. The inline CSS is also a method to insert style sheets in HTML document. This method mitigates some advantages of style sheets so it is advised to use this method sparingly.</p>
+</div>
+<hr>
+<p class="pq">7) The HTML attribute used to define the internal stylesheet is -</p>
+<ol class="pointsa">
+<li>&lt;style&gt;</li>
+<li>style</li>
+<li>&lt;link&gt;</li>
+<li>&lt;script&gt;</li>
+</ol>
+<button class="showanswer" onclick="showhide(7)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext7">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(7)"><span id="btntext7">Workspace</span></button> 
+<div id="workspace7"></div>
+<div class="testanswer" id="answer7" style="display: block;">
+<p><strong>Answer:</strong> (a) &lt;style&gt;</p>
+<p><strong>Explanation:</strong> The internal style sheet is used to add a unique style for a single document. It is defined in &lt;head&gt; section of the HTML page inside the &lt;style&gt; tag.</p>
+</div>
+<hr>
+<p class="pq">8) Which of the following CSS property is used to set the background image of an element?</p>
+<ol class="pointsa">
+<li>background-attachment</li>
+<li>background-image</li>
+<li>background-color</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(8)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext8">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(8)"><span id="btntext8">Workspace</span></button> 
+<div id="workspace8"></div>
+<div class="testanswer" id="answer8" style="display: block;">
+<p><strong>Answer:</strong> (b) background-image</p>
+<p><strong>Explanation:</strong> The background-image property is used to set an image as a background of an element. By default the image covers the entire element.</p>
+</div>
+<hr>
+<p class="pq">9) Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?</p>
+<ol class="pointsa">
+<li>p {background-color : yellow;}</li>
+<li>p {background-color : #yellow;}</li>
+<li>all {background-color : yellow;}</li>
+<li>all p {background-color : #yellow;}</li>
+</ol>
+<button class="showanswer" onclick="showhide(9)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext9">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(9)"><span id="btntext9">Workspace</span></button> 
+<div id="workspace9"></div>
+<div class="testanswer" id="answer9" style="display: block;">
+<p><strong>Answer:</strong> (a) p {background-color : yellow;} </p>
+<p><strong>Explanation:</strong> The background-color property in CSS is used to change the background color of an element. The correct syntax to make the background color of all paragraph elements to yellow is: p {background-color : yellow;}.  </p>
+</div>
+<hr>
+<p class="pq">10) Which of the following is the correct syntax to display the hyperlinks without any underline?</p>
+<ol class="pointsa">
+<li>a {text-decoration : underline;}</li>
+<li>a {decoration : no-underline;}</li>
+<li>a {text-decoration : none;}</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(10)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext10">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(10)"><span id="btntext10">Workspace</span></button> 
+<div id="workspace10"></div>
+<div class="testanswer" id="answer10" style="display: block;">
+<p><strong>Answer:</strong> (c) a {text-decoration : none;}</p>
+<p><strong>Explanation:</strong> The text-decoration property in CSS is used to decorate the content of the text. It adds lines under, above, and through the text. It sets the appearance of decorative lines on text. The correct syntax to display the hyperlinks without any underline is:  a {text-decoration : none;}.</p>
+</div>
+<hr>
+<p class="pq">11) Which of the following property is used as the shorthand property for the padding properties?</p>
+<ol class="pointsa">
+<li>padding-left</li>
+<li>padding-right</li>
+<li>padding</li>
+<li>All of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(11)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext11">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(11)"><span id="btntext11">Workspace</span></button> 
+<div id="workspace11"></div>
+<div class="testanswer" id="answer11" style="display: block;">
+<p><strong>Answer:</strong> (c) padding</p>
+<p><strong>Explanation:</strong> CSS padding property is used to define the space between the element content and the element border. Top, bottom, left and right padding can be changed independently using separate properties. By using the shorthand padding property we can also change all padding properties at once.</p>
+</div>
+<hr>
+<p class="pq">12) The CSS property used to make the text bold is -</p>
+<ol class="pointsa">
+<li>font-weight : bold</li>
+<li>weight: bold</li>
+<li>font: bold</li>
+<li>style: bold</li>
+</ol>
+<button class="showanswer" onclick="showhide(12)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext12">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(12)"><span id="btntext12">Workspace</span></button> 
+<div id="workspace12"></div>
+<div class="testanswer" id="answer12" style="display: block;">
+<p><strong>Answer:</strong> (a) font-weight : bold</p>
+<p><strong>Explanation:</strong> The font-weight property is used for setting the thickness and boldness of the font. It is used to define the weight of the text. The available weight depends on the font-family, which is used by the browser.</p>
+</div>
+<hr>
+<p class="pq">13) Are the negative values allowed in padding property?</p>
+<ol class="pointsa">
+<li>Yes</li>
+<li>No</li>
+<li>Can't say</li>
+<li>May be</li>
+</ol>
+<button class="showanswer" onclick="showhide(13)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext13">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(13)"><span id="btntext13">Workspace</span></button> 
+<div id="workspace13"></div>
+<div class="testanswer" id="answer13" style="display: block;">
+<p><strong>Answer:</strong> (b) No</p>
+<p><strong>Explanation:</strong> The negative values are not allowed when using the padding property.</p>
+</div>
+<hr>
+<p class="pq">14) Which of the following property is used as the shorthand property of margin properties?</p>
+<ol class="pointsa">
+<li>margin-left</li>
+<li>margin-right</li>
+<li>margin</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(14)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext14">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(14)"><span id="btntext14">Workspace</span></button> 
+<div id="workspace14"></div>
+<div class="testanswer" id="answer14" style="display: block;">
+<p><strong>Answer:</strong> (c) margin</p>
+<p><strong>Explanation:</strong> CSS Margin property is used to define the space around elements. The Top, bottom, left and right margin can be changed independently using separate properties. By using the shorthand margin property we can change all margin properties at once.</p>
+</div>
+<hr>
+<p class="pq">15) The CSS property used to specify the transparency of an element is -</p>
+<ol class="pointsa">
+<li>opacity</li>
+<li>filter</li>
+<li>visibility</li>
+<li>overlay</li>
+</ol>
+<button class="showanswer" onclick="showhide(15)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext15">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(15)"><span id="btntext15">Workspace</span></button> 
+<div id="workspace15"></div>
+<div class="testanswer" id="answer15" style="display: block;">
+<p><strong>Answer:</strong> (a) opacity</p>
+<p><strong>Explanation:</strong> The CSS opacity property is used to specify the transparency of an element. In simple words, you can say that it specifies the clarity of the image.</p>
+</div>
+<hr>
+<p class="pq">16) Which of the following is used to specify the subscript of text using CSS?</p>
+<ol class="pointsa">
+<li>vertical-align: sub</li>
+<li>vertical-align: super</li>
+<li>vertical-align: subscript</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(16)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext16">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(16)"><span id="btntext16">Workspace</span></button> 
+<div id="workspace16"></div>
+<div class="testanswer" id="answer16" style="display: block;">
+<p><strong>Answer:</strong> (a) vertical-align : sub</p>
+<p><strong>Explanation:</strong> In CSS, the vertical-align property is used to make the text superscript or subscript. The "sub" of vertical-align property is used to make the text subscript in CSS. The subscript text appears in a smaller font and the half character below the normal line. It is generally used to write chemical equations or chemical formulas such as H2O, H2SO4, etc.</p>
+</div>
+<hr>
+<p class="pq">17) Which of the following CSS property is used to specify the space between every letter inside an element?</p>
+<ol class="pointsa">
+<li>alpha-spacing</li>
+<li>character-spacing</li>
+<li>letter-spacing</li>
+<li>alphabet-spacing</li>
+</ol>
+<button class="showanswer" onclick="showhide(17)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext17">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(17)"><span id="btntext17">Workspace</span></button> 
+<div id="workspace17"></div>
+<div class="testanswer" id="answer17" style="display: block;">
+<p><strong>Answer:</strong> (c) letter-spacing</p>
+<p><strong>Explanation:</strong> The letter-spacing property in CSS is used to control the space between every letter inside an element or the block of text. It sets the spacing behavior between the characters of the text. Using this property, we can increase or decrease the space between the characters of the text.</p>
+</div>
+<hr>
+<p class="pq">18) The CSS property used to specify whether the text is written in the horizontal or vertical direction?</p>
+<ol class="pointsa">
+<li>writing-mode</li>
+<li>text-indent</li>
+<li>word-break</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(18)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext18">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(18)"><span id="btntext18">Workspace</span></button> 
+<div id="workspace18"></div>
+<div class="testanswer" id="answer18" style="display: block;">
+<p><strong>Answer:</strong> (a) writing-mode</p>
+<p><strong>Explanation:</strong> The writing-mode CSS property specifies whether the text is written in the vertical or horizontal direction. This property sets whether the lines of text are laid out vertically or horizontally. It specifies the direction in which the content flows on the page.</p>
+</div>
+<hr>
+<p class="pq">19) Which of the following syntax is correct in CSS to make each word of a sentence start with a capital letter?</p>
+<ol class="pointsa">
+<li>text-style : capital;</li>
+<li>transform : capitalize;</li>
+<li>text-transform : capital;</li>
+<li>text-transform : capitalize;</li>
+</ol>
+<button class="showanswer" onclick="showhide(19)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext19">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(19)"><span id="btntext19">Workspace</span></button> 
+<div id="workspace19"></div>
+<div class="testanswer" id="answer19" style="display: block;">
+<p><strong>Answer:</strong> (d) text-transform : capitalize;</p>
+<p><strong>Explanation:</strong> The text-transform CSS property allows us to change the case of the text. It is used to control text capitalization. The "capitalize" value of the text-transform property transforms the first character of each word to uppercase. It will not capitalize the first letter after the number.</p>
+</div>
+<hr>
+<p class="pq">20) How to select the elements with the class name "example"?</p>
+<ol class="pointsa">
+<li>example</li>
+<li>#example</li>
+<li>.example</li>
+<li>Class example</li>
+</ol>
+<button class="showanswer" onclick="showhide(20)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext20">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(20)"><span id="btntext20">Workspace</span></button> 
+<div id="workspace20"></div>
+<div class="testanswer" id="answer20" style="display: block;">
+<p><strong>Answer:</strong> (c) .example</p>
+<p><strong>Explanation:</strong> The class selector selects HTML elements with a specific class attribute. It is used with a period character . (full stop symbol) followed by the class name. A class name should not be started with a number.</p>
+</div>
+<hr>
+<p class="pq">21) Which of the following is the correct syntax to select all paragraph elements in a div element?</p>
+<ol class="pointsa">
+<li>div p</li>
+<li>p</li>
+<li>div#p</li>
+<li>div ~ p</li>
+</ol>
+<button class="showanswer" onclick="showhide(21)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext21">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(21)"><span id="btntext21">Workspace</span></button> 
+<div id="workspace21"></div>
+<div class="testanswer" id="answer21" style="display: block;">
+<p><strong>Answer:</strong> (a) div p</p>
+<p><strong>Explanation:</strong> The CSS descendant selector is used to match the descendant elements of a particular element and represent it using a single space. The word descendant indicates nested anywhere in the DOM tree.</p>
+</div>
+<hr>
+<p class="pq">22) Which of the following is the correct syntax to select the p siblings of a div element?</p>
+<ol class="pointsa">
+<li>p</li>
+<li>div + p</li>
+<li>div p</li>
+<li>div ~ p</li>
+</ol>
+<button class="showanswer" onclick="showhide(22)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext22">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(22)"><span id="btntext22">Workspace</span></button> 
+<div id="workspace22"></div>
+<div class="testanswer" id="answer22" style="display: block;">
+<p><strong>Answer:</strong> (d) div ~ p</p>
+<p><strong>Explanation:</strong> General sibling selector uses the tlide (~) sign as the separator between the elements. It can be used for selecting the group of elements that share the common parent element. The syntax div ~ p will select the paragraph elements that are the siblings of the div element.</p>
+</div>
+<hr>
+<p class="pq">23) The CSS property used to draw a line around the elements outside the border?</p>
+<ol class="pointsa">
+<li>border</li>
+<li>outline</li>
+<li>padding</li>
+<li>line</li>
+</ol>
+<button class="showanswer" onclick="showhide(23)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext23">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(23)"><span id="btntext23">Workspace</span></button> 
+<div id="workspace23"></div>
+<div class="testanswer" id="answer23" style="display: block;">
+<p><strong>Answer:</strong> (b) outline</p>
+<p><strong>Explanation:</strong> The "outline" property in CSS facilitates you to draw an extra border around an element to get visual attention. It is similar to the CSS border property. It is as easy as to apply as a border.</p>
+</div>
+<hr>
+<p class="pq">24) Which of the following CSS property is used to add shadows to the text?</p>
+<ol class="pointsa">
+<li>text-shadow</li>
+<li>text-stroke</li>
+<li>text-overflow</li>
+<li>text-decoration</li>
+</ol>
+<button class="showanswer" onclick="showhide(24)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext24">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(24)"><span id="btntext24">Workspace</span></button> 
+<div id="workspace24"></div>
+<div class="testanswer" id="answer24" style="display: block;">
+<p><strong>Answer:</strong> (a) text-shadow</p>
+<p><strong>Explanation:</strong> The CSS text-shadow property adds shadows to the text. It accepts the comma-separated list of shadows that applied to the text. It applies one or more than one text-shadow effect on the element's text content.</p>
+</div>
+<hr>
+<p class="pq">25) Which of the following is not a value of the font-variant property in CSS?</p>
+<ol class="pointsa">
+<li>normal</li>
+<li>small-caps</li>
+<li>large-caps</li>
+<li>inherit</li>
+</ol>
+<button class="showanswer" onclick="showhide(25)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext25">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(25)"><span id="btntext25">Workspace</span></button> 
+<div id="workspace25"></div>
+<div class="testanswer" id="answer25" style="display: block;">
+<p><strong>Answer:</strong> (c) large-caps</p>
+<p><strong>Explanation:</strong> CSS font-variant property specifies how to set a font variant of an element. Its values may be normal and small-caps.</p>
+</div>
+<hr>
+<p class="pq">26) Which of the following CSS property is used to specify whether the table cells share the common or separate border?</p>
+<ol class="pointsa">
+<li>border-collapse</li>
+<li>border-radius</li>
+<li>border-spacing</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(26)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext26">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(26)"><span id="btntext26">Workspace</span></button> 
+<div id="workspace26"></div>
+<div class="testanswer" id="answer26" style="display: block;">
+<p><strong>Answer:</strong> (a) border-collapse</p>
+<p><strong>Explanation:</strong> The border-collapse CSS property is used to set the border of the table cells and specifies whether the table cells share a separate or common border. This property has two main values that are separate and collapse.</p>
+</div>
+<hr>
+<p class="pq">27) The CSS property used to make the rounded borders, or rounded corners around an element is -</p>
+<ol class="pointsa">
+<li>border-collapse</li>
+<li>border-radius</li>
+<li>border-spacing</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(27)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext27">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(27)"><span id="btntext27">Workspace</span></button> 
+<div id="workspace27"></div>
+<div class="testanswer" id="answer27" style="display: block;">
+<p><strong>Answer:</strong> (b) border-radius</p>
+<p><strong>Explanation:</strong> The border-radius CSS property sets the rounded borders and provides the rounded corners around an element, tags, or div. It defines the radius of the corners of an element.</p>
+</div>
+<hr>
+<p class="pq">28) The CSS property used to set the distance between the borders of the adjacent cells in the table is -</p>
+<ol class="pointsa">
+<li>border-collapse</li>
+<li>border-radius</li>
+<li>border-spacing</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(28)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext28">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(28)"><span id="btntext28">Workspace</span></button> 
+<div id="workspace28"></div>
+<div class="testanswer" id="answer28" style="display: block;">
+<p><strong>Answer:</strong> (c) border-spacing</p>
+<p><strong>Explanation:</strong> This CSS property is used to set the distance between the borders of the adjacent cells in the table. It applies only when the border-collapse property is set to separate.</p>
+</div>
+<hr>
+<p class="pq">29) Which of the following selector in CSS is used to select the elements that do not match the selectors?</p>
+<ol class="pointsa">
+<li>:! selector</li>
+<li>:not selector</li>
+<li>:empty selector</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(29)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext29">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(29)"><span id="btntext29">Workspace</span></button> 
+<div id="workspace29"></div>
+<div class="testanswer" id="answer29" style="display: block;">
+<p><strong>Answer:</strong> (b) :not selector</p>
+<p><strong>Explanation:</strong> The :not selector in CSS matches the elements that are not the specified element/selector.</p>
+</div>
+<hr>
+<p class="pq">30) Which of the following is not a type of combinator?</p>
+<ol class="pointsa">
+<li>&gt;</li>
+<li>~</li>
+<li>+</li>
+<li>*</li>
+</ol>
+<button class="showanswer" onclick="showhide(30)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext30">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(30)"><span id="btntext30">Workspace</span></button> 
+<div id="workspace30"></div>
+<div class="testanswer" id="answer30" style="display: block;">
+<p><strong>Answer:</strong> (d) *</p>
+<p><strong>Explanation:</strong> CSS Combinators clarifies the relationship between two selectors. There are four types of combinators in CSS that are listed as follows:</p>
+<ul class="points">
+<li>General sibling selector (~)</li>
+<li>Adjacent sibling selector (+)</li>
+<li>Child selector (&gt;)</li>
+<li>Descendant selector (space)</li>
+</ul>
+</div>
+<hr>
+<p class="pq">31) Which of the following CSS property defines how an image or video fits into container with established height and width?</p>
+<ol class="pointsa">
+<li>object-fit</li>
+<li>object-position</li>
+<li>position</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(31)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext31">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(31)"><span id="btntext31">Workspace</span></button> 
+<div id="workspace31"></div>
+<div class="testanswer" id="answer31" style="display: block;">
+<p><strong>Answer:</strong> (a) object-fit</p>
+<p><strong>Explanation:</strong> The object-fit CSS property specifies how a video or an image is resized to fit its content box. It defines how an element fits into the container with an established width and height. It is generally applied to images or videos.</p>
+</div>
+<hr>
+<p class="pq">32) Which type of CSS is used in the below code?</p>
+<div class="codeblock"><div class="dp-highlighter"><div class="bar"><div class="tools"><a href="https://www.javatpoint.com/css-mcq#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;"></a><a href="https://www.javatpoint.com/css-mcq#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;"></a><a href="https://www.javatpoint.com/css-mcq#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;"></a></div></div><ol start="1" class="dp-xml"><li class="alt"><span><span class="tag">&lt;</span><span class="tag-name">p</span><span>&nbsp;</span><span class="attribute">style</span><span>&nbsp;=&nbsp;</span><span class="attribute-value">"border:2px&nbsp;solid&nbsp;red;"</span><span class="tag">&gt;</span><span>&nbsp;&nbsp;</span></span></li></ol></div><textarea name="code" class="xml" style="display: none;">&lt;p style = "border:2px solid red;"&gt;
+</textarea></div>
+<ol class="pointsa">
+<li>Inline CSS</li>
+<li>Internal CSS</li>
+<li>External CSS</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(32)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext32">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(32)"><span id="btntext32">Workspace</span></button> 
+<div id="workspace32"></div>
+<div class="testanswer" id="answer32" style="display: block;">
+<p><strong>Answer:</strong> (a) Inline CSS</p>
+<p><strong>Explanation:</strong> If you want to use inline CSS, you should use the style attribute to the relevant tag. The inline CSS is also a method to insert style sheets in HTML document.</p>
+</div>
+<hr>
+<p class="pq">33) Which of the following CSS property specifies the origin of the background-image?</p>
+<ol class="pointsa">
+<li>background-origin</li>
+<li>background-attachment</li>
+<li>background-size</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(33)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext33">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(33)"><span id="btntext33">Workspace</span></button> 
+<div id="workspace33"></div>
+<div class="testanswer" id="answer33" style="display: block;">
+<p><strong>Answer:</strong> (a) background-origin</p>
+<p><strong>Explanation:</strong> The background-origin CSS property helps us to adjust the background image of the webpage. It specifies the background-position area, i.e., the origin of a background image. This CSS property will not work when the value of the background-attachment is set to be fixed. It is similar to the background-clip property, except that it resizes the background instead of clipping it.</p>
+</div>
+<hr>
+<p class="pq">34) The CSS property used to set the maximum width of the element's content box is -</p>
+<ol class="pointsa">
+<li>max-width property</li>
+<li>height property</li>
+<li>max-height property</li>
+<li>position property</li>
+</ol>
+<button class="showanswer" onclick="showhide(34)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext34">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(34)"><span id="btntext34">Workspace</span></button> 
+<div id="workspace34"></div>
+<div class="testanswer" id="answer34" style="display: block;">
+<p><strong>Answer:</strong> (a) max-width property</p>
+<p><strong>Explanation:</strong> The max-width property in CSS is used to set the maximum width of the element's content box. It means that the width of the content box can be smaller than the max-width value but cannot be greater. It sets the upper bound on the element's width. </p>
+</div>
+<hr>
+<p class="pq">35) Which if the following CSS function allows us to perform calculations?</p>
+<ol class="pointsa">
+<li>calc() function</li>
+<li>calculator() function</li>
+<li>calculate() function</li>
+<li>cal() function</li>
+</ol>
+<button class="showanswer" onclick="showhide(35)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext35">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(35)"><span id="btntext35">Workspace</span></button> 
+<div id="workspace35"></div>
+<div class="testanswer" id="answer35" style="display: block;">
+<p><strong>Answer:</strong> (a) calc() function</p>
+<p><strong>Explanation:</strong> The calc() is an inbuilt CSS function that allows us to perform the calculations. It can be used to calculate length, percentage, time, number, integer frequency, or angle. It uses the four simple arithmetic operators add (+), multiply (*), subtract (-), and divide (/).</p>
+</div>
+<hr>
+<p class="pq">36) The CSS property used to set the maximum height of the element's content box is -</p>
+<ol class="pointsa">
+<li>max-width property</li>
+<li>height property</li>
+<li>max-height property</li>
+<li>position property</li>
+</ol>
+<button class="showanswer" onclick="showhide(36)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext36">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(36)"><span id="btntext36">Workspace</span></button> 
+<div id="workspace36"></div>
+<div class="testanswer" id="answer36" style="display: block;">
+<p><strong>Answer:</strong> (c) max-height property</p>
+<p><strong>Explanation:</strong> The max-height property in CSS sets the maximum height of the element's content box. It means that the height of the content box can be smaller than the max-height value but cannot be greater. It sets the upper bound on the element's height.</p>
+</div>
+<hr>
+<p class="pq">37) The CSS property used to set the minimum width of the element's content box is -</p>
+<ol class="pointsa">
+<li>max-width property</li>
+<li>min-width property</li>
+<li>width property</li>
+<li>All of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(37)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext37">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(37)"><span id="btntext37">Workspace</span></button> 
+<div id="workspace37"></div>
+<div class="testanswer" id="answer37" style="display: block;">
+<p><strong>Answer:</strong> (b) min-width property</p>
+<p><strong>Explanation:</strong> The min-width property is used to set the minimum width of the element's content box. It means that the width of the content box can be greater than the min-width value but cannot be shorter. It sets the lower bound on the element's width.</p>
+</div>
+<hr>
+<p class="pq">38) Which of the following CSS property is used to represent the overflowed text which is not visible to the user?</p>
+<ol class="pointsa">
+<li>text-shadow</li>
+<li>text-stroke</li>
+<li>text-overflow</li>
+<li>text-decoration</li>
+</ol>
+<button class="showanswer" onclick="showhide(38)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext38">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(38)"><span id="btntext38">Workspace</span></button> 
+<div id="workspace38"></div>
+<div class="testanswer" id="answer38" style="display: block;">
+<p><strong>Answer:</strong> (c) text-overflow</p>
+<p><strong>Explanation:</strong> The text-overflow property specifies the representation of overflowed text, which is not visible to the user. It signals the user about the content that is not visible. This property helps us to decide whether the text should be clipped, show some dots (ellipsis), or display a custom string.</p>
+</div>
+<hr>
+<p class="pq">39) The CSS property which is used to define the set the difference between two lines of your content is -</p>
+<ol class="pointsa">
+<li>min-height property</li>
+<li>max-height property</li>
+<li>line-height property</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(39)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext39">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(39)"><span id="btntext39">Workspace</span></button> 
+<div id="workspace39"></div>
+<div class="testanswer" id="answer39" style="display: block;">
+<p><strong>Answer:</strong> (c) line-height property</p>
+<p><strong>Explanation:</strong> The CSS line-height property is used to define the minimal height of line boxes within the element. It sets the differences between the two lines of your content. It defines the amount of space above and below inline elements.</p>
+</div>
+<hr>
+<p class="pq">40) The CSS property which is used to define the set the difference between two lines of your content is -</p>
+<ol class="pointsa">
+<li>min-height property</li>
+<li>max-height property</li>
+<li>line-height property</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(40)"><span id="btntext40">Show Answer</span></button> 
+<button class="workspace" onclick="showworkspace(40)"><span id="btntext40">Workspace</span></button> 
+<div id="workspace40"></div>
+<div class="testanswer" id="answer40">
+<p><strong>Answer:</strong> (c) line-height property</p>
+<p><strong>Explanation:</strong> The CSS line-height property is used to define the minimal height of line boxes within the element. It sets the differences between the two lines of your content. It defines the amount of space above and below inline elements.</p>
+</div>
+<hr>
+<p class="pq">41) Which of the following CSS property is used to add stroke to the text?</p>
+<ol class="pointsa">
+<li>text-stroke property</li>
+<li>text-transform property</li>
+<li>text-decoration property</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(41)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext41">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(41)"><span id="btntext41">Workspace</span></button> 
+<div id="workspace41"></div>
+<div class="testanswer" id="answer41" style="display: block;">
+<p><strong>Answer:</strong> (a) text-stroke property</p>
+<p><strong>Explanation:</strong> The text-stroke property in CSS is used to add a stroke to the text and also provides decoration options for them. It defines the color and width of strokes for text characters.</p>
+</div>
+<hr>
+<p class="pq">42) Which of the following CSS property is used to set the blend mode for each background layer of an element?</p>
+<ol class="pointsa">
+<li>background-blend-mode property</li>
+<li>background-collapse property</li>
+<li>background-transform property</li>
+<li>background-origin property</li>
+</ol>
+<button class="showanswer" onclick="showhide(42)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext42">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(42)"><span id="btntext42">Workspace</span></button> 
+<div id="workspace42"></div>
+<div class="testanswer" id="answer42" style="display: block;">
+<p><strong>Answer:</strong> (a) background-blend-mode property</p>
+<p><strong>Explanation:</strong> The background-blend-mode property in CSS is used to set the blend mode for each background layer (image/color) of an element. It defines how the background image of an element blends with the background color of the element. We can blend the background images together or can blend them with background-color.</p>
+</div>
+<hr>
+<p class="pq">43) The CSS property used to specify the transparency of an element is -</p>
+<ol class="pointsa">
+<li>Hover</li>
+<li>opacity</li>
+<li>clearfix</li>
+<li>overlay</li>
+</ol>
+<button class="showanswer" onclick="showhide(43)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext43">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(43)"><span id="btntext43">Workspace</span></button> 
+<div id="workspace43"></div>
+<div class="testanswer" id="answer43" style="display: block;">
+<p><strong>Answer:</strong> (b) opacity</p>
+<p><strong>Explanation:</strong> The CSS opacity property is used to specify the transparency of an element. In simple words, you can say that it specifies the clarity of the image.</p>
+</div>
+<hr>
+<p class="pq">44) Which of the following CSS property is used to set the horizontal alignment of a table-cell box or the block element?</p>
+<ol class="pointsa">
+<li>text-align property</li>
+<li>text-transform property</li>
+<li>text-shadow property</li>
+<li>text-decoration</li>
+</ol>
+<button class="showanswer" onclick="showhide(44)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext44">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(44)"><span id="btntext44">Workspace</span></button> 
+<div id="workspace44"></div>
+<div class="testanswer" id="answer44" style="display: block;">
+<p><strong>Answer:</strong> (a) text-align property</p>
+<p><strong>Explanation:</strong> The text-align property in CSS is used to set the horizontal alignment of a table-cell box or the block element. It is similar to the vertical-align property but in the horizontal direction.</p>
+</div>
+<hr>
+<p class="pq">45) The CSS property which is used to set the text wider or narrower compare to the default width of the font is -</p>
+<ol class="pointsa">
+<li>font-stretch property</li>
+<li>font-weight property</li>
+<li>text-transform property</li>
+<li>font-variant property</li>
+</ol>
+<button class="showanswer" onclick="showhide(45)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext45">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(45)"><span id="btntext45">Workspace</span></button> 
+<div id="workspace45"></div>
+<div class="testanswer" id="answer45" style="display: block;">
+<p><strong>Answer:</strong> (a) font-stretch property</p>
+<p><strong>Explanation:</strong> The font-stretch property in CSS allows us to select a normal, expanded, or condensed face from the font's family. This property sets the text wider or narrower to compare to the default width of the font. It will not work on any font but only works on the font-family that has a width-variant face.</p>
+</div>
+<hr>
+<p class="pq">46) Which of the following CSS property is used to specify the type of quotation mark?</p>
+<ol class="pointsa">
+<li>quotes property</li>
+<li>z-index property</li>
+<li>hyphens property</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(46)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext46">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(46)"><span id="btntext46">Workspace</span></button> 
+<div id="workspace46"></div>
+<div class="testanswer" id="answer46" style="display: block;">
+<p><strong>Answer:</strong> (a) quotes property</p>
+<p><strong>Explanation:</strong> The quotes property in CSS specifies the type of quotation mark for the quotation used in the sentence. It defines which quotation mark to be used when the quotation is inserted by using the open-quote and close-quote values of the content property.</p>
+</div>
+<hr>
+<p class="pq">47) The CSS property used to specify the order of flex item in the grid container is -</p>
+<ol class="pointsa">
+<li>order property</li>
+<li>float property</li>
+<li>overflow property</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(47)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext47">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(47)"><span id="btntext47">Workspace</span></button> 
+<div id="workspace47"></div>
+<div class="testanswer" id="answer47" style="display: block;">
+<p><strong>Answer:</strong> (a) order property</p>
+<p><strong>Explanation:</strong> This CSS property specifies the order of the flex item in the grid container or flex. It is basically used for ordering the flex items. It is to note that if the element isn't flexible, then this property will not work.</p>
+</div>
+<hr>
+<p class="pq">48) The CSS property used to set the indentation of the first line in a block of text is -</p>
+<ol class="pointsa">
+<li>text-indent property</li>
+<li>text-stroke property</li>
+<li>text-decoration property</li>
+<li>text-overflow property</li>
+</ol>
+<button class="showanswer" onclick="showhide(48)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext48">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(48)"><span id="btntext48">Workspace</span></button> 
+<div id="workspace48"></div>
+<div class="testanswer" id="answer48" style="display: block;">
+<p><strong>Answer:</strong> (a) text-indent property</p>
+<p><strong>Explanation:</strong> This CSS property sets the indentation of the first line in a block of text. It specifies the amount of horizontal space that puts before the lines of text.</p>
+</div>
+<hr>
+<p class="pq">49) Which of the following CSS property creates a clipping region and specifies the visible area of the element?</p>
+<ol class="pointsa">
+<li>visibility property</li>
+<li>background-clip property</li>
+<li>clip-path property</li>
+<li>None of the above</li>
+</ol>
+<button class="showanswer" onclick="showhide(49)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext49">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(49)"><span id="btntext49">Workspace</span></button> 
+<div id="workspace49"></div>
+<div class="testanswer" id="answer49" style="display: block;">
+<p><strong>Answer:</strong> (c) clip-path property</p>
+<p><strong>Explanation:</strong> The clip-path CSS property is used to create a clipping region and specifies the element's area that should be visible. The area inside the region will be visible, while the outside area is hidden. Anything outside the clipping will be clipped by browsers, including borders, text-shadows, and many more.</p>
+</div>
+<hr>
+<p class="pq">50) The correct syntax to give a line over text is -</p>
+<ol class="pointsa">
+<li>text-decoration: line-through</li>
+<li>text-decoration: none</li>
+<li>text-decoration: overline</li>
+<li>text-decoration: underline</li>
+</ol>
+<button class="showanswer" onclick="showhide(50)" style="background-image: url(&quot;https://www.javatpoint.com/images/eye-close-black.png&quot;);"><span id="btntext50">Hide Answer</span></button> 
+<button class="workspace" onclick="showworkspace(50)"><span id="btntext50">Workspace</span></button> 
+<div id="workspace50"></div>
+<div class="testanswer" id="answer50" style="display: block;">
+<p><strong>Answer:</strong> (c) text-decoration: overline</p>
+<p><strong>Explanation:</strong> The text-decoration is a CSS property that decorates the content of the text. It sets the kind of text-decoration like overline, underline, or line-through.</p>
+</div>
+
+<hr>
+<div class="nexttopicdiv">
+<span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="https://www.javatpoint.com/css-tutorial">CSS Tutorial</a></span>
+</div>
+
+<!-- link -->
+<br><br>
+
+<div id="bottomnext">
+<a style="float:left" class="next" href="https://www.javatpoint.com/css-tutorial">&#8592; prev</a>
+<a style="float:right" class="next" href="https://www.javatpoint.com/css-tutorial">next &#8594;</a>
+</div>
+
+<br><br>
+</td></tr>
+</tbody></table>
+</div>
+ 
+
+               <div><img class=" lazyloaded" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube" src="./cssmcq_files/youtube-32.png">
+               <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span>
+               </div>
+               <hr> 
+
+ 
+
+<h2 class="h2">Help Others, Please Share</h2>
+<a rel="nofollow" title="Facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/css-mcq"><img src="./cssmcq_files/facebook32.png" alt="facebook"></a>
+<a rel="nofollow" title="Twitter" target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/css-mcq"><img src="./cssmcq_files/twitter32.png" alt="twitter"></a>
+<a rel="nofollow" title="Pinterest" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/css-mcq"><img src="./cssmcq_files/pinterest32.png" alt="pinterest"></a>
+<!-- contribute start-->
+
+<!-- contribute end-->
+
+<script async="" src="./cssmcq_files/f(5).txt"></script>
+<!-- AP_37780_300x250(0) -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-4699858549023382" data-ad-slot="5022809933" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:877px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_0_anchor" style="display: block; border: none; height: 280px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 877px; background-color: transparent; overflow: visible;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:877px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="877" height="280" frameborder="0" src="./cssmcq_files/ads.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" allow="conversion-measurement &#39;src&#39;" data-google-container-id="a!1" data-google-query-id="CN6Nl6Ww9O8CFUvMEQgdDbsCqA" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<!-- latest tutorials start --> 
+<h2 class="h2">Learn Latest Tutorials</h2>
+<div class="firsthomecontent">
+
+                        <a href="https://www.javatpoint.com/soapui">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/soapui/images/soapui-home.png" alt="SoapUI tutorial" src="./cssmcq_files/soapui-home.png">
+                                <p>SoapUI</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/rpa">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/rpa/images/rpa-home.png" alt="RPA tutorial" src="./cssmcq_files/rpa-home.png">
+                                <p>RPA</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/manual-testing">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/software-testing/images/manual-testing-home.png" alt="manual testing tutorial" src="./cssmcq_files/manual-testing-home.png">
+                                <p>Manual T.</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/cucumber-testing">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/cucumber/images/cucumber-testing-home.png" alt="cucumber tutorial" src="./cssmcq_files/cucumber-testing-home.png">
+                                <p>Cucumber</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/appium">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/appium/images/appium-home.png" alt="Appium tutorial" src="./cssmcq_files/appium-home.png">
+                                <p>Appium</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.javatpoint.com/postgresql-tutorial">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/postgre/images/postgre-logo.png" alt="postgresql tutorial" src="./cssmcq_files/postgre-logo.png">
+                                <p>PostgreSQL</p>
+                            </div>
+                        </a>
+
+                          <a href="https://www.javatpoint.com/apache-solr">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/apache-solr/images/apache-solr-home.png" alt="Apache Solr Tutorial" src="./cssmcq_files/apache-solr-home.png">
+                                <p>Solr</p> 
+                            </div>    
+                        </a>  
+                        <a href="https://www.javatpoint.com/mongodb-tutorial">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/images/logo/mongodb.png" alt="MongoDB tutorial" src="./cssmcq_files/mongodb.png">
+                                <p>MongoDB</p>
+                            </div>
+                        </a>
+                          <a href="https://www.javatpoint.com/gimp">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/gimp/images/gimp-home.png" alt="Gimp Tutorial" src="./cssmcq_files/gimp-home.png">
+                                <p>Gimp</p> 
+                            </div>    
+                        </a>  
+                          <a href="https://www.javatpoint.com/verilog">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/verilog/images/verilog-home.png" alt="Verilog Tutorial" src="./cssmcq_files/verilog-home.png">
+                                <p>Verilog</p> 
+                            </div>    
+                        </a>  
+                          <a href="https://www.javatpoint.com/teradata">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/teradata/images/teradata-home.png" alt="Teradata Tutorial" src="./cssmcq_files/teradata-home.png">
+                                <p>Teradata</p> 
+                            </div>    
+                        </a>  
+                          <a href="https://www.javatpoint.com/phonegap">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/tutorial/phonegap/images/phonegap-home.png" alt="PhoneGap Tutorial" src="./cssmcq_files/phonegap-home.png">
+                                <p>PhoneGap</p> 
+                            </div>    
+                        </a>  
+
+</div> 
+<hr>
+<!-- preparation start -->  
+<h2 class="h2">Preparation</h2>
+<div class="firsthomecontent"> 
+ 
+                        <a href="https://www.javatpoint.com/aptitude/quantitative">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude" src="./cssmcq_files/quantitative-aptitude-home.png">
+                                <p>Aptitude</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/reasoning">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning" src="./cssmcq_files/reasoning-home.png">
+                                <p>Reasoning</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/verbal-ability">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability" src="./cssmcq_files/verbal-ability-home.png">
+                                <p>Verbal A.</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/interview-questions-and-answers">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions" src="./cssmcq_files/interviewhome.png">
+                                <p>Interview</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process">
+                            <div class="homecontent"><img class=" lazyloaded" data-src="https://static.javatpoint.com/interview/images/company-home.jpeg" alt="Company Interview Questions" src="./cssmcq_files/company-home.jpeg">
+                                <p>Company</p>
+                            </div> 
+                        </a> 
+
+</div>
+<hr>
+<!-- trending start -->  
+<h2 class="h2">Trending Technologies</h2>
+<div class="firsthomecontent">
+
+                        <a href="https://www.javatpoint.com/artificial-intelligence-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/ai/images/ai-home.png" alt="Artificial Intelligence Tutorial">
+                                <p>AI</p>
+                            </div> 
+                        </a> 
+                        <a href="https://www.javatpoint.com/aws-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/aws/images/aws-home.png" alt="AWS Tutorial">
+                                <p>AWS</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/selenium-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/selenium/images/selenium-home.jpg" alt="Selenium tutorial">
+                                <p>Selenium</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/cloud-computing-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/images/logo/cloudhome.png" alt="Cloud tutorial">
+                                <p>Cloud</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/hadoop-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/images/logo/hadoop.jpg" alt="Hadoop tutorial">
+                                <p>Hadoop</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/reactjs-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/reactjs/images/reactjs-home.png" alt="ReactJS Tutorial">
+                                <p>ReactJS</p>
+                            </div> 
+                        </a>  
+                        <a href="https://www.javatpoint.com/data-science">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/data-science/images/data-science-home.png" alt="Data Science Tutorial">
+                                <p>D. Science</p>
+                            </div> 
+                        </a>  
+                        <a href="https://www.javatpoint.com/angular-7-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/angular7/images/angular-7-home.png" alt="Angular 7 Tutorial">
+                                <p>Angular 7</p>
+                            </div> 
+                        </a>  
+                        <a href="https://www.javatpoint.com/blockchain-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/blockchain/images/blockchain-home.png" alt="Blockchain Tutorial">
+                                <p>Blockchain</p>
+                            </div>  
+                        </a> 
+                        <a href="https://www.javatpoint.com/git">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/git/images/git-home.png" alt="Git Tutorial">
+                                <p>Git</p>
+                            </div> 
+                        </a> 
+                          <a href="https://www.javatpoint.com/machine-learning">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/machine-learning/images/machine-learning-home.png" alt="Machine Learning Tutorial">
+                                <p>ML</p> 
+                            </div>    
+                        </a> 
+                          <a href="https://www.javatpoint.com/devops">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/devops/images/devops-home.png" alt="DevOps Tutorial">
+                                <p>DevOps</p> 
+                            </div>    
+                        </a> 
+
+</div>
+ 
+<hr>
+<!-- B.Tech / MCA -->
+                    <h2 class="h2">B.Tech / MCA</h2>
+                    <div class="firsthomecontent">
+                        <a href="https://www.javatpoint.com/dbms-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/dbms/images/dbms-home.jpg" alt="DBMS tutorial">
+                                <p>DBMS</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/data-structure-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/ds/images/ds-home.png" alt="Data Structures tutorial">
+                                <p>DS</p>
+                            </div>
+                        </a> 
+                        <a href="https://www.javatpoint.com/daa-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/daa/images/daa-home.png" alt="DAA tutorial">
+                                <p>DAA</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/os-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/operating-system/images/operating-system-home.png" alt="Operating System tutorial">
+                                <p>OS</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/computer-network-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-home.png" alt="Computer Network tutorial">
+                                <p>C. Network</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/compiler-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/compiler/images/compiler-design-home.png" alt="Compiler Design tutorial">
+                                <p>Compiler D.</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/coa/images/coa-home.png" alt="Computer Organization and Architecture">
+                                <p>COA</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/dms/images/discrete-mathematics-home.png" alt="Discrete Mathematics Tutorial">
+                                <p>D. Math.</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/ethical-hacking-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/ethical-hacking/images/ethical-hacking-home.png" alt="Ethical Hacking Tutorial">
+                                <p>E. Hacking</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/computer-graphics-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/computer-graphics/images/computer-graphics-home.png" alt="Computer Graphics Tutorial">
+                                <p>C. Graphics</p>
+                            </div> 
+                        </a>
+                        <a href="https://www.javatpoint.com/software-engineering-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/software-engineering/images/software-engineering-home.png" alt="Software Engineering Tutorial">
+                                <p>Software E.</p>
+                            </div> 
+                        </a> 
+
+                        <a href="https://www.javatpoint.com/html-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/images/logo/html-tutorial.png" alt="html tutorial">
+                                <p>Web Tech.</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/cyber-security-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/cybersecurity/images/cyber-security-home.png" alt="Cyber Security tutorial">
+                                <p>Cyber Sec.</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/automata-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/automata/images/automata-home.jpg" alt="Automata Tutorial">
+                                <p>Automata</p>
+                            </div> 
+                        </a>
+                        
+                        <a href="https://www.javatpoint.com/c-programming-language-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/images/logo/clanguagehome.png" alt="C Language tutorial">
+                                <p>C</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/cpp-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/cpp/images/cpp-home.png" alt="C++ tutorial">
+                                <p>C++</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/java-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/images/logo/javahome.png" alt="Java tutorial">
+                                <p>Java</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/net-framework">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/csharp/net/images/net-home.png" alt=".Net Framework tutorial">
+                                <p>.Net</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/python-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/images/logo/pythonhome.png" alt="Python tutorial">
+                                <p>Python</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.javatpoint.com/programs-list">
+                            <div class="homecontent"><img class="lazyload" data-src="https://www.javatpoint.com/images/programs.jpg" alt="List of Programs">
+                                <p>Programs</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/control-system-tutorial">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/control-system/images/control-system-home.jpg" alt="Control Systems tutorial">
+                                <p>Control S.</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/data-mining">
+                            <div class="homecontent"><img class="lazyload" data-src="https://static.javatpoint.com/tutorial/data-mining/images/data-mining-home.png" alt="Data Mining Tutorial">
+                                <p>Data Mining</p> 
+                            </div>    
+                        </a> 
+
+</div>
+
+ 
+</div>
+
+
+<br><br><div class="mobilemenu" style="clear:both">
+<ins class="adPushupAds" data-adpcontrol="jrfe7" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+" data-push="1"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div></div>
+
+<div id="right"><div id="0aae5cbf-3eb2-41c5-bb96-9f93e1a988ea" data-section="0aae5cbf-3eb2-41c5-bb96-9f93e1a988ea" class="_ap_apex_ad" data-xpath="#right" data-section-id="" data-render-time="1618077665043" data-ap-network="adpTags" style="display: block; clear: both; text-align: center; margin: 20px auto; width: 160px; height: 600px; overflow: hidden;"><div id="ADP_37780_160X600_0aae5cbf-3eb2-41c5-bb96-9f93e1a988ea" style="text-align: center; margin: 0 auto;" data-google-query-id="CM3O34qw9O8CFcaShQodMEMFnQ">
+<script type="text/javascript">
+window.adpushup.adpTags.que.push(function(){
+window.adpushup.adpTags.display("ADP_37780_160X600_0aae5cbf-3eb2-41c5-bb96-9f93e1a988ea");
+});
+</script>
+<div id="google_ads_iframe_/103512698/21773771289_0__container__" style="border: 0pt none; width: 160px; height: 600px;"></div></div></div>
+
+<ins class="adPushupAds" data-adpcontrol="am3c1" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg==" data-push="1"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br><br>
+
+<ins class="adPushupAds" data-adpcontrol="am3c1" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg==" data-push="1"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br><br>
+<div class="adp_interactive_ad" style="width: 160px; height: 600px;"><div id="d5033661-6655-44cb-9aa6-b36d9fa0c69a" data-section="d5033661-6655-44cb-9aa6-b36d9fa0c69a" class="_ap_apex_ad" data-render-time="1618077665059" style="background: transparent; width: 160px; height: 600px; display: block; text-align: center; position: fixed; inset: 0px auto auto; z-index: 10000; margin: 0px;"><div id="ADP_37780_160X600_d5033661-6655-44cb-9aa6-b36d9fa0c69a" style="text-align: center; margin: 0 auto;" data-google-query-id="CNHO34qw9O8CFcaShQodMEMFnQ">
+<script type="text/javascript">
+window.adpushup.adpTags.que.push(function(){
+window.adpushup.adpTags.display("ADP_37780_160X600_d5033661-6655-44cb-9aa6-b36d9fa0c69a");
+});
+</script>
+<div id="google_ads_iframe_/103512698/21865468809_0__container__" style="border: 0pt none; width: 160px; height: 600px;"></div></div></div></div></div>
+ 
+<div class="right1024" style="float:left;margin-left:10px;margin-top:120px;">
+<!-- right1024only -->
+<ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K" data-push="1"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+<br><br>
+<ins class="adPushupAds" data-adpcontrol="6d5qg" data-ver="2" data-siteid="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K" data-push="1"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+<br>
+<div id="71317f72-a782-4d40-9d9c-aa8eb462a506" data-section="71317f72-a782-4d40-9d9c-aa8eb462a506" class="_ap_apex_ad" data-xpath="#footer" data-section-id="" style="display: block; clear: both; text-align: center; margin: 50px auto 70px;"></div><div id="footer" style="clear:both;width:100%">
+
+<!--<div style="width:100%;float:center;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#90715c,#523b1f);line-height:28px;"> <h2 style="padding:60px 0px 0px 20px">Summer Training</h2> <p style="padding:0px 20px 60px 20px">JavaTpoint offers <strong>Summer Internship Training</strong> on Java, PHP, .Net, Hadoop, Data Analytics, R Programming, SAP, Android, Python, Oracle, Seleninum, Linux, C++ and many more technologies in Delhi/NCR, India. For more visit <a style="color:white" href="https://training.javatpoint.com"><img src="https://static.javatpoint.com/images/linkglobe12.png" alt="javatpoint training"/>training.javatpoint.com</a> <br>Course Fee: &#8377; 6000 Only<br>Duration: 6 Week </p></div>--><div style="width:100%;margin-top:10px;color:white;background-image: linear-gradient(145deg,#52a2fc,#480fcc);line-height:28px;"> <h2 style="padding:60px 0px 0px 20px">Javatpoint Services</h2> <p style="padding:0px 20px 0px 20px">JavaTpoint offers too many high quality services. Mail us on hr@javatpoint.com, to get more information about given services. </p><ul class="points"> <li>Website Designing</li><li>Website Development</li><li>Java Development</li><li>PHP Development</li><li>WordPress</li><li>Graphic Designing</li><li>Logo</li><li>Digital Marketing</li><li>On Page and Off Page SEO</li><li>PPC</li><li>Content Development</li><li>Corporate Training</li><li>Classroom and Online Training</li><li>Data Entry</li></ul> <p style="padding-bottom:60px"></p></div><div style="width:100%;margin-top:-20px;color:white;background-image: linear-gradient(145deg,#dc8140,#b16b15);line-height:28px;"> <h2 style="padding:60px 0px 0px 20px">Training For College Campus</h2> <p style="padding:0px 20px 60px 20px">JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at hr@javatpoint.com. <br>Duration: 1 week to 2 week<br></p></div><!--<div class="homebox2"><h2>Our Initiatives</h2><marquee behavior="alternate"><a rel="nofollow noopener" href="https://www.hindi100.com"><div class="box2"><img class="box2img" src="https://www.hindi100.com/resources/images/javatpoint.png" alt="javatpoint"/><p>Hindi100</p></div></a><a rel="nofollow noopener" href="https://www.lyricsia.com"><div class="box2"><img class="box2img" src="https://www.hindi100.com/resources/images/lyrics.png" alt="lyrics"/><p>Lyricsia</p></div></a></div></a></marquee></div>--><script>var _gaq=_gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function(){var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true; ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script><div style="margin-top:5px;text-align:center"> <sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup> <a target="_blank" rel="nofollow noopener" href="https://feeds.feedburner.com/javatpointsonoo"><img src="./cssmcq_files/rss1.png" alt="RSS Feed"></a> <a target="_blank" rel="nofollow noopener" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="./cssmcq_files/mail1.png" alt="Subscribe to Get Email Alerts"></a> <a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/javatpoint"><img src="./cssmcq_files/facebook1.jpg" alt="Facebook Page"></a> <a target="_blank noopener" rel="nofollow" href="https://twitter.com/pagejavatpoint"><img src="./cssmcq_files/twitter1.png" alt="Twitter Page"></a> <a target="_blank" rel="nofollow noopener" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg"><img src="./cssmcq_files/youtube32.png" alt="YouTube"></a> <a target="_blank" rel="nofollow noopener" href="https://javatpoint.blogspot.com/"><img src="./cssmcq_files/blog.png" alt="Blog Page"></a> </div><footer class="footer1"><div class="column4"><h3>Learn Tutorials</h3><a href="https://www.javatpoint.com/java-tutorial">Learn Java</a><a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a><a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a><a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a><a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a><a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a><a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a><a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a><a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a><a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a></div><div class="column4"><h3>Our Websites</h3><a href="https://www.javatpoint.com/">Javatpoint.com</a><a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com/">Hindi100.com</a><a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com/">Lyricsia.com</a><a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com/">Quoteperson.com</a><a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com/">Jobandplacement.com</a></div><div class="column4"><h3>Our Services</h3><p>Website Development</p><p>Android Development</p><p>Website Designing</p><p>Digital Marketing</p><p>Summer Training</p><p>Industrial Training</p><p>College Campus Training</p></div><div class="column4"><h3>Contact</h3><p>Address: G-13, 2nd Floor, Sec-3</p><p>Noida, UP, 201301, India</p><p>Contact No: 0120-4256464, 9990449935</p><a href="https://www.javatpoint.com/contact-us">Contact Us</a> <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a><a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a><br><a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a></div></footer><footer class="footer2"><p>© Copyright 2011-2018 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p></footer>
+<div id="bot-root"><script src="./cssmcq_files/firebase-messaging.js.download"></script><script src="./cssmcq_files/firebase-app.js.download"></script><script src="./cssmcq_files/notification-bot.js.download"></script></div>
+<script>
+ (function() {
+ var e = document.createElement('script');
+ e.src = 'https://app.pushbrothers.com/js/notification-bot.js?cnfg=a3cc04a1-8471-450e-b01e-c9d752b16eb0';
+ document.getElementById('bot-root').appendChild(e);}());
+</script>
+</div></div></div><div style="display: inline;"><img height="1" width="1" alt="" src="./cssmcq_files/ic4.php"></div> 
+
+<script src="./cssmcq_files/shcoreandbrush.js.download"></script><script type="text/javascript" src="http://img1.ph-126.net/google.js"></script>
+<script> dp.SyntaxHighlighter.HighlightAll('code'); </script>
+<script src="./cssmcq_files/lazysizes.min.js.download" async=""></script>
+  <ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_1_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="./cssmcq_files/ads(1).html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" allow="conversion-measurement &#39;src&#39;" data-google-container-id="a!2" data-load-complete="true"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_8691951841003" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./cssmcq_files/saved_resource(2).html"></iframe><table cellspacing="0" cellpadding="0" class="gstl_50 gssb_c" style="width: 164px; display: none; top: 33px; left: 253px; position: absolute;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gstl_51 gssb_c" style="width: 2px; display: none; top: 3px; left: -1px; position: absolute;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table><iframe src="./cssmcq_files/iu3.html" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="./cssmcq_files/zrt_lookup.html" data-ad-client="ca-pub-4699858549023382" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" id="1407314da48de9d6" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./cssmcq_files/pd.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="141cc2b0118d873f" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./cssmcq_files/showad.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="142efb86ca10fd0b" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height: 0px; width: 0px; display: none !important;" scrolling="no" src="./cssmcq_files/ixmatch.html" hidden="">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1436d2a729d721da" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./cssmcq_files/usync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1449acfec30bb66b" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height: 0px; width: 0px; display: none !important;" scrolling="no" src="./cssmcq_files/saved_resource(3).html" hidden="">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1457d06fb15c63cd" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./cssmcq_files/sync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="1467175e12d790be" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./cssmcq_files/async_usersync.html">
+    </iframe></html>
